@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-wrapper {
+    margin: 20px;
+    font-size: 20px;
+}
+#newUser {
+    width: 250px;
+}
+#messages {
+    height: 50px;
+    font-size: 16px;
+    color: rgb(233, 41, 41);
+    font-weight: bold;
+}
+.button-wrapper button {
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: mediumseagreen;
+    color: white;
+    padding: 5px;
+}
+#users {
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: crimson;
+    color: white;
+    border: 1px solid white;
+}
+.current-users {
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid white;
+}
